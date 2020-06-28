@@ -9,7 +9,7 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const path = require('path')
 
 const webpackConfig = merge(common, {
-	// mode: 'production',
+	mode: 'production',
 	plugins: [
 		// new BundleAnalyzerPlugin(),
 		new MiniCssExtractPlugin('main.css'),
